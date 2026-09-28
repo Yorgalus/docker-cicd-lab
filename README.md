@@ -21,7 +21,7 @@ flowchart LR
         TEST --> DEPLOY["deploy<br/>lit l'artifact"]
     end
 
-    TEST -. rapport.txt .-> DEPLOY
+    TEST -. artifact .-> DEPLOY
 
     classDef s fill:#EDEAF4,stroke:#5B4B8A,color:#1a1a1a
     classDef b fill:#EAF1F8,stroke:#1F6FB2,color:#1a1a1a
